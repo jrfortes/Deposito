@@ -1,12 +1,26 @@
 package cuenta;
 
-public class Main {
+/**
+ * Programa que solicita una serie de datos que posteriormente se guandarán el las
+ * correspondientes y se realizarán las operaciones. Se muestra el saldo actual despues
+ * de realizar un ingreso en cuenta. 
+ * @author José Ramón López Fortes
+ * @version 1.0
+ * @since 1.0
+ */
 
+public class Main {
+	
 	public static void main(String[] args) {
 		operativa_cuenta(0);
 		
 	}
 
+	/**
+	 * Método operativa de cuenta. Asocia una serie de datos, realiza un ingreso y muestra
+	 * el saldo actual y la acción realizada.
+	 * @param cantidad
+	 */
 	private static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
 		double saldoActual;
